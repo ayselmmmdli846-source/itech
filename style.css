@@ -1376,9 +1376,6 @@ footer {
 }
 
 
-
-
-
 .shop-card button {
 
 
@@ -1408,51 +1405,130 @@ footer {
 
 }
 
-
-
-
-
 .shop-card button:hover {
-
-
     background: #d95100;
-
-
 }
 
-
-
-
-
-
-
-
 /* MOBILE */
-
-
 @media(max-width:700px){
-
-
     .shop-categories,
     .shop-products {
-
         padding:40px 20px;
-
     }
-
-
     .shop-cat {
-
         width:90%;
 
     }
-
 
     .shop-card {
 
         width:90%;
 
     }
+
+}
+/* Mobile Responsive */
+
+@media (max-width: 768px) {
+
+
+nav {
+    flex-direction: column;
+    padding: 20px;
+    gap: 20px;
+}
+
+
+nav ul {
+    flex-direction: column;
+    text-align: center;
+    gap: 15px;
+}
+
+
+.search {
+    width: 100%;
+}
+
+
+.search input {
+    width: 80%;
+}
+
+
+.cart {
+    margin-top: 10px;
+}
+
+
+
+/* Hero sections */
+
+.about-hero,
+.shop-header {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+
+.about-hero h1,
+.shop-header h1 {
+    font-size: 32px;
+}
+
+
+.about-hero p,
+.shop-header p {
+    font-size: 16px;
+}
+
+
+
+/* Products */
+
+.shop-product-list {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+
+.shop-card {
+    width: 100%;
+}
+
+
+
+/* Categories */
+
+.shop-cat-list {
+    grid-template-columns: 1fr;
+}
+
+
+
+/* Features */
+
+.features {
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+
+/* Footer */
+
+.footer-container {
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+}
+
+
+.form-box {
+    width: 90%;
+    margin: auto;
+}
 
 
 }
