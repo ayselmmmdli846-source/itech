@@ -1531,4 +1531,82 @@ nav ul {
 }
 
 
+}@media screen and (max-width: 768px) {
+
+    * {
+        box-sizing: border-box;
+    }
+
+
+    body {
+        overflow-x: hidden;
+    }
+
+
+    nav {
+        flex-direction: column;
+        padding: 20px;
+        width: 100%;
+    }
+
+
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        padding: 0;
+    }
+
+
+    .search {
+        width: 100%;
+        display: flex;
+    }
+
+
+    .search input {
+        width: 100%;
+    }
+
+
+    .shop-product-list {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 20px;
+    }
+
+
+    .shop-card {
+        width: 100%;
+    }
+
+
+    .shop-card img {
+        width: 100%;
+        height: auto;
+    }
+
+
+    .shop-cat-list {
+        grid-template-columns: 1fr;
+    }
+
+
+    .features {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .footer-container {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+
+    .form-box {
+        width: 90%;
+    }
+
 }
